@@ -130,14 +130,9 @@ let publicationsCurrentIndex = 0;
 let publicationsInterval = null;
 
 function initPublicationsCarousel() {
-  const scrollContainer = document.querySelector('.publications-scroll');
   const playButton = document.querySelector('.publications-controls button');
   const indicators = document.querySelectorAll('.publications-indicator');
 
-  if (!scrollContainer) return;
-
-  // Start auto-scroll
-  startPublicationsCarousel();
 
   // Play/pause button
   if (playButton) {
