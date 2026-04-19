@@ -513,7 +513,6 @@ document.addEventListener('DOMContentLoaded', () => {
   initAboutCarousels();
   initContactForm();
   initNewsletterPopup();
-  initSmoothScroll();
 });
 
 // Cleanup on page unload
